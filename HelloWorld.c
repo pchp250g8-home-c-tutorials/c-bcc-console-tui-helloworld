@@ -8,5 +8,7 @@ int _tmain(int argc, _TCHAR* argv[])
    clrscr();
    gotoxy(10,10);
    cprintf("%s","Hello,World!!!");
+   gotoxy(11,10);
+   cprintf("%s","Conio Library");
    getch();
 }
